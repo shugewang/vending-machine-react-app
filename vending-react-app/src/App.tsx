@@ -1,25 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ProductsContainer from "./components/ProductsContainer"
+import SelectionContainer from './components/SelectionContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div id="page-container">
+      <div id="app-container">
+        <div className="title-container">
+          <h1> Vending Machine </h1>
+          </div>
+          <div id="product-container">
+            <ProductsContainer></ProductsContainer>
+          </div>
+          <div id="selection-container">
+            <SelectionContainer></SelectionContainer>
+          </div>
+        </div>
+      </div>
   );
 }
 
