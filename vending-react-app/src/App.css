@@ -1,20 +1,23 @@
-* {
+/* * {
   outline: 2px red solid;
-}
+} */
 
 #page-container {
   display: flex;
   justify-content: center;
 }
 #app-container {
+  border-radius: 1rem;
   display:flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: space-between;
   text-align: center;
-  width: 50%;
+  width: 50vw;
+  height: 80vh;
   background-color: #00afb9;
 }
 
-h1 {
+h1, p{
   color: #FFFFFC;
+  text-align: center;
 }

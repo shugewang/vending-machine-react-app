@@ -1,5 +1,7 @@
-#products-container {
+#tiles-container {
     display: flex;
-    justify-content:space-between;
-    background-color: #E56399;
+    justify-content:space-evenly;
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
 }

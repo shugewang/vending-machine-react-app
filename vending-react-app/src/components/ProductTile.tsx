@@ -1,6 +1,7 @@
 import "./ProductTile.css";
 
 const ProductTile = () => {
+
     return (
         <div className="product-tile">
             <div className="product-image">

@@ -1,6 +1,11 @@
 .product-tile{
+    border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
+    /* justify-content: space-evenly;
+    align-self: space-e÷venly; */
     aspect-ratio: 1/1;
-    width: 50%; 
+    width: 45%; 
+    background-color: #E56399;
+    margin: 1%;
 }

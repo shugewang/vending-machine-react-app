@@ -3,7 +3,9 @@ import ProductTile from "./ProductTile";
 
 const ProductsContainer = () => {
     return (
-        <div id="products-container">
+        <div id="tiles-container">
+                <ProductTile></ProductTile>
+                <ProductTile></ProductTile>
                 <ProductTile></ProductTile>
                 <ProductTile></ProductTile>
         </div>
