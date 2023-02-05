@@ -12,4 +12,6 @@ data class Inventory(
     @ManyToOne
     val product: Product,
     val quantity: Int,
+    @ManyToOne
+    val vendingMachine: VendingMachine
 )

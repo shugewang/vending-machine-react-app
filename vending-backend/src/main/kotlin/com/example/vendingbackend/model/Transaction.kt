@@ -13,4 +13,6 @@ data class Transaction(
     val product: Product,
     val total: Double,
     val purchaseDate: LocalDate,
+    @ManyToOne
+    val vendingMachine: VendingMachine
 )
