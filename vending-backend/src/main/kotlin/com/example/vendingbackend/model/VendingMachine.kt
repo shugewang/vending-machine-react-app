@@ -9,7 +9,6 @@ data class VendingMachine(
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Int,
     val location: String,
-    val productName: String,
     @OneToMany(mappedBy = "vendingMachine")
     val transactions: List<Transaction>,
     @OneToMany(mappedBy = "vendingMachine")
