@@ -11,12 +11,8 @@ function App() {
         <div className="title-container">
           <h1> Vending Machine </h1>
           </div>
-          <div id="product-container">
-            <ProductsContainer></ProductsContainer>
-          </div>
-          <div id="selection-container">
-            <SelectionContainer></SelectionContainer>
-          </div>
+            <ProductsContainer />
+            <SelectionContainer />
         </div>
       </div>
   );

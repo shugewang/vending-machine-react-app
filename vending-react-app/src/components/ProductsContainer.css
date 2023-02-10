@@ -1,7 +1,6 @@
 #tiles-container {
     display: flex;
     justify-content:space-evenly;
-    padding: 1rem;
-    gap: 1rem;
     flex-wrap: wrap;
+    height: 80vh;
 }

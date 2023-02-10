@@ -1,4 +1,7 @@
-#product-info-container {
+#selection-container {
+    height: 20%;
+}
+    #product-info-container {
     display: flex;
     justify-content: center;
     gap: 1rem;   
